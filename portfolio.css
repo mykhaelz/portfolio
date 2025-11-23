@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to bottom, rgb(29, 4, 4), black);
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    color: aliceblue;
+    
+}
+
+p {
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.toji {
+    border-radius: 1000px;
+    border: solid 3px red;
+    width: 500px;
+    height: 500px;
+    margin-right: 400px;
+    box-shadow: 0 0 20px red;
+    object-fit: cover;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.titulo {
+    font-size: 100px;
+    margin-top: 0;
+}
+
+.eusou {
+    font-size: 50px;
+    margin-top: 0;      /* tira o espaço gigantesco */
+    margin-bottom: 10px; /* opcional, pra não colar demais */
+}
+
+    
+
+
+.subtitulo {
+    font-size: 25px;
+    color: red;
+    
+}
+
+.eu {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.linkidin {
+    width: 50px;
+    border-radius: 500px;
+    margin-left: 10px;
+}
+
+.facebook {
+    margin-left: 50px;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.portfolio {
+    color: red;
+    margin-left: 50px;
+}
+
+p, h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+
+button {
+    background-color: red;
+    width: 150px;
+    padding: 15px;
+    color: aliceblue;
+    box-shadow: 0 0 1px aliceblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-bottom: 299px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* um vai pra esquerda, outro pra direita */
+    align-items: center; /* alinha tudo no meio verticalmente */
+    /* só pra dar um respiro bonito */
+margin: 0 auto;
+margin-right: 20px;
+}
+
+.vermelho{
+    color: red;
+}
